@@ -13,7 +13,7 @@ id_utmid = "une"
 id_password ="pass"
 id_submit="btlogin"
 
-browser = webdriver.Firefox(executable_path=GeckoDriverManager().install() , service_log_path="O:/log/log")
+# browser = webdriver.Firefox(executable_path=GeckoDriverManager().install() , service_log_path="O:/log/log")
 # browser = webdriver.Edge(executable_path=EdgeChromiumDriverManager().install() , service_log_path="O:/log/log")
 browser.get((login_link))	
 
