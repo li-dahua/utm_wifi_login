@@ -1,8 +1,7 @@
 ## in main.py :
 1. edit utmid and password (line 11 & 12 )
 2. change sevive_log_path (line 16/17)
-3. 
-                   if (browser == 'Firefox'):
+3.                    if (browser == 'Firefox'):
                         uncomment line 16
                         comment line 17
                     elif (browser='Edge'):
