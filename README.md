@@ -17,4 +17,4 @@
           pyinstaller --onefile main.py
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/chunkeat99/utm_wifi_login/blob/main/LICENSE)
