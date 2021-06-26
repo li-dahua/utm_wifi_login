@@ -11,7 +11,7 @@
                         develop the code urself
 
 ## install dependencies
-          pip install -r  requirments.txt          
+          pip install -r  requirements.txt          
          
 ## build  executable file
           pyinstaller --onefile main.py
