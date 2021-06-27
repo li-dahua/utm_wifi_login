@@ -1,12 +1,12 @@
 ## in main.py :
-1. edit utmid and password (line 11 & 12 )
-2. change sevive_log_path (line 16/17)
+1. edit utmid and password (line 8 & 9 )
+2. change sevive_log_path (line 15/16)
 3.                 if (browser == 'Firefox'):
-                        uncomment line 16
-                        comment line 17
-                    elif (browser='Edge'):
-                        uncomment line 17
+                        uncomment line 15
                         comment line 16
+                    elif (browser='Edge'):
+                        uncomment line 16
+                        comment line 15
                     else:
                         develop the code urself
 
