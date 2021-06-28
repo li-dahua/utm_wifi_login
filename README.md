@@ -4,9 +4,15 @@
 3.                 if (browser == 'Firefox'):
                         uncomment line 15
                         comment line 16
+                        comment line 17
                     elif (browser='Edge'):
                         uncomment line 16
                         comment line 15
+                        comment line 17
+                    elif (downloaded geckodriver https://github.com/mozilla/geckodriver ):
+                        uncomment line 17, set the geckdriver path
+                        comment line 15
+                        comment line 16
                     else:
                         develop the code urself
 
