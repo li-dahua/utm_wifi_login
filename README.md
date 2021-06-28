@@ -10,7 +10,7 @@
                         comment line 15
                         comment line 17
                     elif (downloaded geckodriver https://github.com/mozilla/geckodriver ):
-                        uncomment line 17, set the geckdriver path
+                        uncomment line 17, set the geckodriver path
                         comment line 15
                         comment line 16
                     else:
