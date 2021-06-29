@@ -1,6 +1,6 @@
 ## in main.py :
 1. edit utmid and password (line 8 & 9 )
-2. change sevive_log_path (line 15/16)
+2. change sevive_log_path (line 15/16/17)
 3.                 if (browser == 'Firefox'):
                         uncomment line 15
                         comment line 16
