@@ -5,7 +5,7 @@ password = "" # password
 browser_type = "edge" # edge or firefox
 
 if browser_type == "edge" :
-    driver = "msedgedriver.exe"
+    driver = "driver/msedgedriver.exe"
 
 elif browser_type =='firefox' : 
-    driver = "geckodriver.exe"    
+    driver = "driver/geckodriver.exe"    
