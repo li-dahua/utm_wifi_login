@@ -23,6 +23,8 @@ The time scale is at 24-hour format. Here meaning 02:10 am will auto-login.
 ## If not working after the run, go download the corresponding version of your browser webdriver.
 4.          python3 main.py
 
+   imi.py is for direct login.
+
 
 ## build  executable file
           pyinstaller --onefile main.py
