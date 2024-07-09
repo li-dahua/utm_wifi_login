@@ -1,3 +1,4 @@
-selenium==3.141.59
-webdriver_manager==3.4.2
-pyinstaller==4.2
+selenium
+webdriver_manager
+pyinstaller
+schedule
