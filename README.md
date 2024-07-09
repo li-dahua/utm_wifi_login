@@ -2,8 +2,6 @@
 ## install dependencies
           pip3 install -r  requirements.txt          
          
-## build  executable file
-          pyinstaller --onefile main.py
 How to use the script.
 Open Main.py
 1.          Key in your username and password.
@@ -21,6 +19,8 @@ Normally you will be auto-logged out at 2 am every day.
 schedule.every().day.at("02:10").do(login) #time for login
 The time scale is at 24-hour format. Here meaning 02:10 am will auto-login.
 
+## build  executable file
+          pyinstaller --onefile main.py
 ## If not working after the run, go download the corresponding version of your browser webdriver.
 4.          python3 main.py
 
