@@ -6,8 +6,9 @@ How to use the script.
 Open Main.py
 1.          Key in your username and password.
   
-utmid = "" # username
-password = "" # password
+utmid = "my_name" # username
+
+password = "my_password" # password
 
 2.          Choose the browser you want.
 browser_type = "chrome" # edge or firefox
