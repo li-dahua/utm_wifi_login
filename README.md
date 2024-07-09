@@ -13,6 +13,7 @@ password = "" # password
 
 2.          Choose the browser you want.
 browser_type = "chrome" # edge or firefox
+
 3.          Change the time you want to login.
 
 Normally you will be auto-logged out at 2 am every day.
