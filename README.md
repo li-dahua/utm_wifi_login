@@ -7,8 +7,10 @@
 How to use the script.
 Open Main.py
 1.          Key in your username and password.
+  
 utmid = "" # username
 password = "" # password
+
 2.          Choose the browser you want.
 browser_type = "chrome" # edge or firefox
 ## If not working after the run, go download the corresponding version of your browser webdriver.
