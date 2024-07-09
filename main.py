@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.edge.service import Service
-from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.chrome.service import Service as ChromeService
 import time
 import schedule
 
@@ -26,11 +26,11 @@ id_password = "pass"
 id_submit = "btlogin"
 def login():
     if browser_type == "edge" :
-        browser =  webdriver.Edge(service=Service(driver))
+        browser =  webdriver.Edge(service=EdgeService(driver))
     elif browser_type =='firefox' : 
-        browser =  webdriver.Firefox(service=Service(driver))
+        browser =  webdriver.Firefox(service=FirefoxService(driver))
     elif browser_type =='chrome' : 
-        browser =  webdriver.Chrome(service=Service(driver))
+        browser =  webdriver.Chrome(service=ChromeService(driver))
 
     browser.get((login_link))	
 
